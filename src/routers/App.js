@@ -18,6 +18,7 @@ class App {
 
         routes() {
             this.app.use('/', homeRouters)
+            this.app.use('/usuarios', usuarioRouters)
         }
 }
 

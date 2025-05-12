@@ -6,9 +6,9 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
+  "author": "Yago Martins",
+  "license": "MIT",
+  "description": "Sitema de exemplo para o curso de Técnico de Informática do IFSP, aplicando API.",
   "devDependencies": {
     "@eslint/js": "^9.26.0",
     "eslint": "^9.26.0",
