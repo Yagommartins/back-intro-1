@@ -1,9 +1,12 @@
 import { Router } from 'express'
-import { UsuarioController } from '../controllers/Usuario.Controller.js'
+import usuarioController  from '../controllers/Usuario.Controller.js'
 
 const routerUsuario = new Router()
 
-routerUsuario.get('/', UsuarioController.index)
-routerUsuario.get('/:id', UsuarioController.store)
+routerUsuario.get('/', usuarioController.index)
+routerUsuario.post('/', usuarioController.store)
+routerUsuario.get('/:email', usuarioController.show)
+routerUsuario.put('/:email', usuarioController.update)
+routerUsuario.delete('/:id', usuarioController.destroy)
 
 export default routerUsuario
